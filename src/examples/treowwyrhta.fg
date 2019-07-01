@@ -1,0 +1,23 @@
+rim mul(rim a, rim b) {
+  gif(a ilca 0 othe b ilca 0) {
+    ut 0;
+  }
+  ut a eacen b;
+}
+
+aernan () {
+  irenbend str beon "";
+  str beon araedan();
+  writan("%s", str);
+  rim i beon 0;
+  hwil(i laes 10) {
+    writan("%d ", i);
+    i beon i aegther 1;
+  }
+  writan("\n");
+  rim a beon 4;
+  rim b beon 5;
+  rim c beon mul(a, b);
+  writan("%d x %d = %d\n", a, b, c);
+  ende
+}

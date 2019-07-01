@@ -1,0 +1,17 @@
+
+aernan () {
+  cunnan t beon soth;
+  cunnan f beon nasoth;
+  writan("truth = %d, falsehood = %d\n",t,f);
+  gif (t othe f){
+    writan("truth || falsehood = %d\n",t);
+  }
+  gif (t andac f){
+    writan("Shouldnt print this\n");
+  }
+  gif (t andac t){
+    writan("truth && falsehood = %d\n",t);
+  }
+
+  ende
+}

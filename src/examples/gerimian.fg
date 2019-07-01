@@ -1,0 +1,15 @@
+
+aernan () {
+  beginnan FACTORIAL DE N ablinnan
+  rim n beon 3;
+
+  rim ret beon n;
+  rim i beon 1;
+
+  hwil(i laes n) {
+    ret beon ret eacen i;
+    i beon i aegther 1;
+  }
+  writan("%d! = %d\n", n, ret);
+  ende
+}

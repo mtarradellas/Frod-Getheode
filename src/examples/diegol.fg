@@ -1,0 +1,9 @@
+
+aernan () {
+
+  writan("Before comment\n");
+  beginnan THIS IS A COMMENT ablinnan
+  writan("After comment\n");
+  
+  ende
+}
